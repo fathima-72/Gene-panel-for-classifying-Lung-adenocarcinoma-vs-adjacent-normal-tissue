@@ -26,9 +26,9 @@ Degree.csv, Closeness.csv,   cytoHubba exports and STRING ID mapping
 deg_outputs/                  results: DEG tables, enrichment, hub genes, ML, validation
 docs/                         report and figures
 ```
-## Data (not included)
+## Data 
  
-- GSE40419: download `GSE40419_LC-87_RPKM_expression.txt` from GEO and place it in the project root.
+- GSE40419: download `GSE40419_LC-87_RPKM_expression.txt` from GEO and place it in the project root. Metadata is already uploaded in Data branch.
 - TCGA-LUAD: `05_tcga_external_validation.R` downloads it from UCSC Xena (about 30 MB).
 
 ## Run
