@@ -16,7 +16,7 @@ RNA-seq analysis of GSE40419 (87 tumor, 77 adjacent-normal samples): differentia
 ```
 scripts/                      R scripts, run in order
   01_DEG_analysis.R
-  02_functional_annotation.R
+  Annotation.R
   03_hub_gene_consolidation.R
   04_ml_classifier.R
   05_tcga_external_validation.R
@@ -36,7 +36,7 @@ docs/                         report and figures
 ```r
 setwd("path/to/this/folder")
 source("scripts/01_DEG_analysis.R")
-source("scripts/02_functional_annotation.R")
+source("scripts/Annotation.R")
 source("scripts/03_hub_gene_consolidation.R")
 source("scripts/04_ml_classifier.R")
 source("scripts/05_tcga_external_validation.R")
